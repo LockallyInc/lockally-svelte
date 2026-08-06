@@ -1,0 +1,40 @@
+{
+  "name": "@lockally/svelte",
+  "version": "0.1.0",
+  "description": "Official Lockally Svelte components — EmailComposer, ContactPicker, AttachmentUpload, TemplateSelector, SignaturePicker — with a secure token-based provider.",
+  "license": "MIT",
+  "type": "module",
+  "repository": { "type": "git", "url": "https://github.com/LockallyInc/lockally-svelte.git" },
+  "homepage": "https://lockally.com",
+  "keywords": ["lockally", "svelte", "email", "components", "composer", "transactional"],
+  "svelte": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "svelte-package",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@lockally/ui-core": "^0.1.1"
+  },
+  "peerDependencies": {
+    "svelte": ">=5"
+  },
+  "devDependencies": {
+    "@sveltejs/package": "^2.3.7",
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@testing-library/svelte": "^5.2.4",
+    "jsdom": "^25.0.0",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
