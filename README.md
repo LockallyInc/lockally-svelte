@@ -54,10 +54,10 @@ secret key), or point `baseUrl` at your own proxy.
 | `ContactPicker` | Search contacts (`GET /v1/contacts?q=`). `onselect`. |
 | `TemplateSelector` | Pick a stored template (`GET /v1/templates`). `onselect`. |
 | `AttachmentUpload` | `File` → base64; `bind:value` of `Attachment[]`. |
-| `SignaturePicker` | **Prop-driven** — pass your own `signatures`; `onselect`. Lockally has no public signatures API. |
+| `SignaturePicker` | **Prop-driven**: pass your own `signatures`; `onselect`. Lockally has no public signatures API. |
 
-Every element carries a `data-lockally="…"` hook, so you theme it with your own CSS —
-no stylesheet required.
+Every element carries a `data-lockally="…"` hook, so you theme it with your own CSS;
+no stylesheet is required.
 
 ## License
 

@@ -1,7 +1,7 @@
 {
   "name": "@lockally/svelte",
-  "version": "0.1.0",
-  "description": "Official Lockally Svelte components — EmailComposer, ContactPicker, AttachmentUpload, TemplateSelector, SignaturePicker — with a secure token-based provider.",
+  "version": "0.1.1",
+  "description": "Official Lockally Svelte components: EmailComposer, ContactPicker, AttachmentUpload, TemplateSelector and SignaturePicker, with a secure token-based provider.",
   "license": "MIT",
   "type": "module",
   "repository": { "type": "git", "url": "https://github.com/LockallyInc/lockally-svelte.git" },
